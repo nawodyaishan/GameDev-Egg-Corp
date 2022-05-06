@@ -105,7 +105,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 608461335
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2df03413ec6db4988ad6585afd2f6c27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -131,7 +131,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eggSpawnPoint: {fileID: 2049637084846476433}
-  eggPrefab1: {fileID: 1640376280736384061, guid: 2cfa9a8b7d1214257a42e9f15a2a3418, type: 3}
+  eggDataList:
+  - {fileID: 11400000, guid: e63072873daca4e5084f60da5c89fca9, type: 2}
+  - {fileID: 11400000, guid: 7f5f8d29f3aa740cc850d6eba3661af2, type: 2}
+  - {fileID: 11400000, guid: 4df144d00b38045e1877dc7078e0e6ff, type: 2}
+  - {fileID: 11400000, guid: 1c0c9303172f74525ad1af8d1151eb59, type: 2}
+  - {fileID: 11400000, guid: 2295a9c69b04848f79f2a6accb0b4e7b, type: 2}
 --- !u!114 &9143166546867551162
 MonoBehaviour:
   m_ObjectHideFlags: 0

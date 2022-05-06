@@ -10,15 +10,19 @@ public class ChickenController : MonoBehaviour
 {
     // Listen for movement keys and move
     public Transform eggSpawnPoint;
-    public GameObject eggPrefab1;
-    
-    
+    public ScriptableEgg[] eggDataList;
+
+
     //  Listen for space key and lay eggs
     public void LayEgg(InputAction.CallbackContext action)
     {
         if (action.phase == InputActionPhase.Performed)
         {
-            Instantiate(eggPrefab1, eggSpawnPoint.position, Quaternion.identity);
+            foreach (var eggData in eggDataList)
+            {
+                var newEgg = Instantiate(eggData.prefab, eggSpawnPoint.position, Quaternion.identity);
+                newEgg.transform.localScale = new Vector2(eggData.eggSize, eggData.eggSize);
+            }
         }
     }
 }
