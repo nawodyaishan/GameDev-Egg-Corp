@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c6586e0086c24d5e81490392c55c940, type: 3}
+  m_Name: Egg 0
+  m_EditorClassIdentifier: 
+  eggName: rose egg
+  prefab: {fileID: 1640376280736384061, guid: 2cfa9a8b7d1214257a42e9f15a2a3418, type: 3}
+  eggSize: 0.9
