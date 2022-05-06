@@ -18,11 +18,9 @@ public class ChickenController : MonoBehaviour
     {
         if (action.phase == InputActionPhase.Performed)
         {
-            foreach (var eggData in eggDataList)
-            {
-                var newEgg = Instantiate(eggData.prefab, eggSpawnPoint.position, Quaternion.identity);
-                newEgg.transform.localScale = new Vector2(eggData.eggSize, eggData.eggSize);
-            }
+            var eggData = eggDataList[Random.Range(0, eggDataList.Length)];
+            var newEgg = Instantiate(eggData.prefab, eggSpawnPoint.position, Quaternion.identity);
+            newEgg.transform.localScale = new Vector2(eggData.eggSize, eggData.eggSize);
         }
     }
 }
