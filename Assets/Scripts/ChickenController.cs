@@ -9,7 +9,8 @@ using UnityEngine.InputSystem;
 public class ChickenController : MonoBehaviour
 {
     // Listen for movement keys and move
-    
+    public Transform eggSpawnPoint;
+    public GameObject eggPrefab1;
     
     
     //  Listen for space key and lay eggs
@@ -17,7 +18,7 @@ public class ChickenController : MonoBehaviour
     {
         if (action.phase == InputActionPhase.Performed)
         {
-            Debug.Log("Egg Laid!");    
+            Instantiate(eggPrefab1, eggSpawnPoint.position, Quaternion.identity);
         }
     }
 }
