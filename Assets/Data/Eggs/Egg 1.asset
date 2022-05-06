@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Egg 1
   m_EditorClassIdentifier: 
   eggName: Green egg
-  prefab: {fileID: 1640376280736384061, guid: 2cfa9a8b7d1214257a42e9f15a2a3418, type: 3}
+  prefab: {fileID: 1640376280736384061, guid: ffe83d19ac4534bb78f527e598c3bb3e, type: 3}
   eggSize: 0.9
