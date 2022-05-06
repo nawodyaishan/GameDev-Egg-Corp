@@ -1,1 +1,54 @@
-{}
+{
+    "name": "GeneralControls",
+    "maps": [
+        {
+            "name": "Chicken Action Map",
+            "id": "20fb2251-8d79-42da-87dc-bef01375916c",
+            "actions": [
+                {
+                    "name": "Lay Egg",
+                    "type": "Button",
+                    "id": "3f73bbf5-fdfc-48c9-b5b2-613503670ea8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Chicken Move",
+                    "type": "Value",
+                    "id": "60b176f8-caa9-4a3b-ad33-844d5982f9ef",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "415428c3-a6a1-4266-919c-9b8186bcbb16",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Lay Egg",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e4e728ed-da1c-4d2a-91be-d8be213c9b70",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Chicken Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
